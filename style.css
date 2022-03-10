@@ -1,0 +1,105 @@
+/* Home Page*/
+body
+{
+    background-color: black;
+}
+
+#header
+{
+    display: inline-flex;
+}
+#header h1
+{
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+#header
+{
+    color: white;
+    text-transform: uppercase;
+}
+
+#logo
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 10rem;
+}
+
+#navbar
+{
+    background-color: whitesmoke;
+}
+
+#menu-bar li
+{
+    display: inline-flex;
+    margin: 1rem;
+    padding-left: 8rem;
+}
+
+#menu-bar li a
+{
+    text-decoration: none;
+}
+
+p
+{
+    text-align: center;
+    color: white;
+}
+
+/* Team Page */
+
+.team .team-slider{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.team .box .shem{
+    padding-top: 0%;
+    height: 200px;
+    width: 300px;
+    padding-top: 1.5rem;
+    padding-left: 5rem;
+    display: flex;
+    gap: 15px;
+   
+}
+
+.team .box .ezra{
+    padding-top: 0%;
+    height: 350px;
+    width: 300px;
+    padding-top: 1.5rem;
+    padding-left: 5rem;
+    display: flex;
+    gap: 50px;
+}
+
+.team .box p{
+    text-align: center;
+    color: white;
+    padding-top: 20;
+    flex-wrap: wrap;
+}
+
+.ourteam
+{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: block;
+}
+
+.ourteam::after
+{
+    content: "";
+    display: block;
+    margin: 10px auto;
+}
