@@ -1,7 +1,7 @@
 /* Home Page*/
 body
 {
-    background-color: black;
+    background-image: url(forest.jpg);
 }
 
 #header
@@ -31,24 +31,35 @@ body
 #navbar
 {
     background-color: whitesmoke;
+    padding-left: 15rem;
 }
 
 #menu-bar li
 {
     display: inline-flex;
-    margin: 1rem;
-    padding-left: 8rem;
+    margin: 0.8rem;
+    padding-left: 2rem;
 }
 
 #menu-bar li a
 {
-    text-decoration: none;
+    text-decoration: none;   
 }
 
+#menu-bar li a:hover
+{
+    color: darkorange;
+}
 p
 {
     text-align: center;
     color: white;
+}
+#homepageimage
+{
+    display: flex;
+    width: 600px;
+    height: 400px;
 }
 
 /* Team Page */
@@ -81,6 +92,16 @@ p
     gap: 50px;
 }
 
+.team .box .Noah{
+    padding-top: 0%;
+    height: 350x;
+    width: 400px;
+    padding-top: 1.5rem;
+    padding-left: 5rem;
+    display: flex;
+    gap: 50px;
+}
+
 .team .box p{
     text-align: center;
     color: white;
@@ -102,4 +123,92 @@ p
     content: "";
     display: block;
     margin: 10px auto;
+}
+
+/* Portfolio */
+.YearTwentyTwenty
+{
+    text-align: center;
+}
+
+.YearTwentyTwenty h2
+{
+    margin-top: 5rem;
+}
+
+.YearTwentyTwenty img
+{
+    border-radius: 2rem;
+    width: 20px;
+    height: 20px;
+}
+
+.YearTwentyTwenty .collab
+{
+    color: firebrick;
+    text-align: center;
+    
+}
+hr
+{
+    margin-top: 5rem;
+}
+
+.YearTwentyOne
+{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.YearTwentyOne .sanseImg
+{
+    border-radius: 15rem;
+    width: 150px;
+    height: 150px;
+}
+
+.YearTwentyOne .sansegallery img
+{
+    width: 565px;
+    height: 318.5px;
+}
+
+.YearTwentyOne .sansegallery iframe
+{
+    width: 565px;
+    height: 318.5px;
+}
+
+.YearTwentyTwo
+{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.YearTwentyTwo .dualCover
+{
+    border-radius: 15rem;
+    width: 150px;
+    height: 150px;
+}
+
+.YearTwentyTwo .teamdual img
+{
+    border-radius: 2rem;
+    width: 20px;
+    height: 20px;
+}
+
+.YearTwentyTwo .dualgallery img
+{
+    width: 565px;
+    height: 318.5px;
+
+}
+
+.YearTwentyTwo .dualgallery iframe
+{
+    width: 565px;
+    height: 318.5px;
+
 }
