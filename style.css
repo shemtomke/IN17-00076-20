@@ -10,9 +10,10 @@ body
 }
 #header h1
 {
+    font-size: large;
     text-align: center;
     padding-left: 10px;
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 #header
@@ -60,6 +61,11 @@ p
     display: flex;
     width: 600px;
     height: 400px;
+}
+h2
+{
+    text-align: center;
+    margin-top: 2rem;
 }
 
 /* Team Page */
@@ -136,6 +142,13 @@ p
     margin-top: 5rem;
 }
 
+.YearTwentyTwenty .washerlogo
+{
+    border-radius: 15rem;
+    width: 150px;
+    height: 150px;
+}
+
 .YearTwentyTwenty img
 {
     border-radius: 2rem;
@@ -145,7 +158,7 @@ p
 
 .YearTwentyTwenty .collab
 {
-    color: firebrick;
+    color: white;
     text-align: center;
     
 }
