@@ -72,6 +72,8 @@ h2
 .row
 {
     display: inline-flex;
+    flex-wrap: wrap;
+    gap: 215px;
 }
 
 .team
@@ -79,7 +81,7 @@ h2
     margin: 75px 0;
 }
 
-h2
+.team h2
 {
     text-align: center;
     font-weight: bold;
@@ -88,7 +90,7 @@ h2
     padding-bottom: 10px;
 }
 
-h2::after
+.team h2::after
 {
     content: '';
     background: rgb(0, 0, 0);
@@ -112,19 +114,27 @@ h2::after
 
 .profile h3
 {
+    margin-top: -25px;
+    text-align: center;
     font-size: 33px;
 }
 
 .profile h4
 {
+    text-align: center;
     font-size: 15px;
     font-weight: bold;
-    margin-top: 15px;
+    margin-top: -25px;
 }
 
-p
+.team p
 {
-    text-align: justify;
+    text-align: center;
+}
+
+.img-box ul
+{
+    gap: 0px;
 }
 
 /* Portfolio */
