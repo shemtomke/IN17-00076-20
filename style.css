@@ -1,7 +1,7 @@
 /* Home Page*/
 body
 {
-    background-image: url(Images/forest.jpg);
+    background-color: black;
 }
 
 #header
@@ -31,7 +31,7 @@ body
 
 #navbar
 {
-    background-color: whitesmoke;
+    background-color: black;
     padding-left: 15rem;
 }
 
@@ -40,16 +40,19 @@ body
     display: inline-flex;
     margin: 0.8rem;
     padding-left: 2rem;
+    color: white;
+    font-size: larger;
 }
 
 #menu-bar li a
 {
-    text-decoration: none;   
+    color: white;
+    text-decoration: white; 
 }
 
 #menu-bar li a:hover
 {
-    color: darkorange;
+    color: red;
 }
 p
 {
@@ -64,17 +67,18 @@ p
 }
 h2
 {
+    margin-top: 5rem;
     text-align: center;
     font-weight: bold;
     letter-spacing: 3px;
-    color: rgb(0, 0, 0);
+    color: red;
     padding-bottom: 10px;
 }
 
 h2::after
 {
     content: '';
-    background: rgb(0, 0, 0);
+    background: red;
     display: block;
     height: 3px;
     width: 250px;
@@ -84,7 +88,7 @@ h2::after
 h3
 {
     text-align: center;
-    margin-top: 0rem;
+    color: white;
 }
 
 .socialMedia
@@ -113,14 +117,14 @@ h3
     text-align: center;
     font-weight: bold;
     letter-spacing: 3px;
-    color: rgb(0, 0, 0);
+    color: red;
     padding-bottom: 10px;
 }
 
 .team h2::after
 {
     content: '';
-    background: rgb(0, 0, 0);
+    background: red;
     display: block;
     height: 3px;
     width: 250px;
@@ -130,6 +134,7 @@ h3
 .profile
 {
     margin-top: 25px;
+    color: white;
 }
 
 .profile .img-box
@@ -216,7 +221,7 @@ h3
 
 .YearTwentyTwenty .collab
 {
-    color: white;
+    color: chocolate;
     text-align: center;
     
 }
