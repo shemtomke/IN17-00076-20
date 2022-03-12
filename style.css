@@ -118,14 +118,14 @@ h3
     text-align: center;
     font-weight: bold;
     letter-spacing: 3px;
-    color: red;
+    color: chartreuse;
     padding-bottom: 10px;
 }
 
 .team h2::after
 {
     content: '';
-    background: red;
+    background: chartreuse;
     display: block;
     height: 3px;
     width: 250px;
@@ -150,10 +150,12 @@ h3
     margin-top: -25px;
     text-align: center;
     font-size: 33px;
+    color: white;
 }
 
 .profile h4
 {
+    color: chocolate;
     text-align: center;
     font-size: 15px;
     font-weight: bold;
