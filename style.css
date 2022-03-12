@@ -13,7 +13,7 @@ body
     font-size: large;
     text-align: center;
     padding-left: 10px;
-    padding-top: 50px;
+    padding-top: 10px;
 }
 
 #header
@@ -24,8 +24,8 @@ body
 
 #logo
 {
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
     border-radius: 10rem;
 }
 
@@ -96,8 +96,8 @@ h3
 {
     display: inline-flex;
     flex-wrap: wrap;
-    gap: 50px;
-    padding-left: 35rem;
+    gap: 100px;
+    padding-left: 30rem;
 }
 
 /* Team Page */
@@ -319,5 +319,4 @@ hr
 {
     width: 282.5px;
     height: 159.25px;
-
 }
