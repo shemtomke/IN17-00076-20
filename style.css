@@ -174,15 +174,15 @@ h3
 {
     display: inline-flex;
     flex-wrap: wrap;
-    gap: 10px;
-    padding-left: 1rem;
+    gap: 20px;
+    padding-left: 3.5rem;
     padding-bottom: 1rem;
 }
 .socialmediaTeam02 ul
 {
     display: inline-flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
     padding-left: 7rem;
     padding-bottom: 1rem;
 }
@@ -190,8 +190,8 @@ h3
 {
     display: inline-flex;
     flex-wrap: wrap;
-    gap: 10px;
-    padding-left: 3rem;
+    gap: 20px;
+    padding-left: 5rem;
     padding-bottom: 1rem;
 }
 
