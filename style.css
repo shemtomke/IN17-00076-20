@@ -385,3 +385,13 @@ hr
     width: 282.5px;
     height: 159.25px;
 }
+
+/*Play Our Games */
+
+.games
+{
+    margin-top: 15rem;
+    font-weight: bold;
+    font-size: x-large;
+    letter-spacing: 1.5rem;
+}
