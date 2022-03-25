@@ -111,6 +111,23 @@ h3
     padding-left: 30rem;
 }
 
+.info 
+{
+    margin-top: 3rem;
+    color: white;
+    margin-left: 35%;
+}
+
+.donate
+{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin-left: 40%;
+    margin-top: 3rem;
+}
+
+
 /* Team Page */
 .row
 {
@@ -206,6 +223,41 @@ h3
     gap: 20px;
     padding-left: 5rem;
     padding-bottom: 1rem;
+}
+
+.join
+{
+    color: white;
+}
+
+.join ol
+{
+    margin-left: 32%;
+}
+
+.join li
+{
+    margin-top: 1.5rem;
+    letter-spacing: 1.5px;
+}
+
+.join h2
+{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.join h2::after
+{
+    content: '';
+    background: red;
+    display: block;
+    height: 3px;
+    width: 400px;
+    margin: 10px auto;
 }
 
 /* Portfolio */
