@@ -44,7 +44,7 @@ body
 {
     padding-top: 2rem;
     background-color: black;
-    padding-left: 15rem;
+    text-align: center;
 }
 
 #menu-bar li
@@ -101,21 +101,6 @@ body
     font-size: large; 
     color: white; 
     font-weight: bold;
-}
-
-/*--responsive for mobile phone--*/
-@media(max-width:720px){
-	.box{
-		width: 94%;
-		height: 500px;
-	}
-	.model{
-		height:250px;
-	}
-	.details p{
-		font-size: 16px;
-		width: 250px;
-	}
 }
 
 h2
@@ -257,6 +242,11 @@ h4
     margin-top: -25px;
 }
 
+.team
+{
+    text-align: center;
+}
+
 .team p
 {
     text-align: center;
@@ -269,37 +259,39 @@ h4
 
 .socialmediaTeam01 ul
 {
+    text-align: center;
     display: inline-flex;
     flex-wrap: wrap;
     gap: 20px;
-    padding-left: 3.5rem;
     padding-bottom: 1rem;
 }
 .socialmediaTeam02 ul
 {
+    text-align: center;
     display: inline-flex;
     flex-wrap: wrap;
     gap: 20px;
-    padding-left: 7rem;
     padding-bottom: 1rem;
 }
 .socialmediaTeam03 ul
 {
+    text-align: center;
     display: inline-flex;
     flex-wrap: wrap;
     gap: 20px;
-    padding-left: 5rem;
     padding-bottom: 1rem;
 }
 
 .join
 {
+    text-align: center;
     color: white;
+    list-style-position: inside;
 }
 
-.join ol
+.join p
 {
-    margin-left: 32%;
+    font-size: larger;
 }
 
 .join li
@@ -326,6 +318,7 @@ h4
     width: 400px;
     margin: 10px auto;
 }
+
 
 /* Portfolio */
 
@@ -377,11 +370,28 @@ h4
     text-align: center;
 }
 
+.YearTwentyTwenty h3
+{
+    color: red;
+}
+
 .YearTwentyTwenty .washerlogo
 {
     border-radius: 15rem;
     width: 150px;
     height: 150px;
+}
+
+.YearTwentyTwenty .click
+{
+    color: white;
+    margin-top: 3rem;
+}
+
+.YearTwentyTwenty .play
+{
+    width: 64px;
+    height: 64px;
 }
 
 .YearTwentyTwenty img
@@ -411,6 +421,17 @@ h4
     height: 150px;
 }
 
+.YearTwentyOne h3
+{
+    color: red;
+}
+
+.YearTwentyOne .click
+{
+    color: white;
+    margin-top: 3rem;
+}
+
 .YearTwentyTwo
 {
     margin-top: 5rem;
@@ -431,6 +452,17 @@ h4
     height: 20px;
 }
 
+.YearTwentyTwo h3
+{
+    color: red;
+}
+
+.YearTwentyTwo .click
+{
+    color: white;
+    margin-top: 3rem;
+}
+
 /*Play Our Games */
 
 .games
@@ -439,4 +471,17 @@ h4
     font-weight: bold;
     font-size: x-large;
     letter-spacing: 1.5rem;
+}
+
+/*PROJECTS */
+
+.projects
+{
+    color: white;
+    text-align: center;
+}
+
+.projects h3
+{
+    color: red;
 }
