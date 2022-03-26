@@ -66,11 +66,7 @@ body
 {
     color: red;
 }
-p
-{
-    text-align: center;
-    color: white;
-}
+
 #homepageimage
 {
     display: flex;
@@ -82,20 +78,44 @@ p
     display: inline-flex;
     flex-wrap: wrap;
     gap: 15rem;
-    margin-top: 5rem;
+    margin-top: 5rem; 
+    color: white; 
+    text-align: center;
 }
 
 .ourgames
 {
     display: inline-flex;
     flex-wrap: wrap;
-    gap: 8rem;
+    gap: 22rem;
     margin-top: 5rem;
 }
 
 .ourgames .ourgames2
 {
     margin-left: 10rem;
+}
+
+.Tools p
+{
+    font-size: large; 
+    color: white; 
+    font-weight: bold;
+}
+
+/*--responsive for mobile phone--*/
+@media(max-width:720px){
+	.box{
+		width: 94%;
+		height: 500px;
+	}
+	.model{
+		height:250px;
+	}
+	.details p{
+		font-size: 16px;
+		width: 250px;
+	}
 }
 
 h2
