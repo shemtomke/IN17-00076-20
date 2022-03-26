@@ -77,6 +77,27 @@ p
     width: 600px;
     height: 400px;
 }
+.Mission
+{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 15rem;
+    margin-top: 5rem;
+}
+
+.ourgames
+{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 8rem;
+    margin-top: 5rem;
+}
+
+.ourgames .ourgames2
+{
+    margin-left: 10rem;
+}
+
 h2
 {
     margin-top: 5rem;
@@ -103,19 +124,18 @@ h3
     color: white;
 }
 
+h4
+{
+    text-align: center;
+    color: white;
+}
+
 .socialMedia
 {
     display: inline-flex;
     flex-wrap: wrap;
     gap: 100px;
-    padding-left: 30rem;
-}
-
-.info 
-{
-    margin-top: 3rem;
-    color: white;
-    margin-left: 35%;
+    margin-top: 2rem;
 }
 
 .Mpesa
@@ -136,6 +156,24 @@ h3
     margin-top: 1.5rem;
 }
 
+.homefooter
+{
+    background-color: white; 
+    height: 18rem; 
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.homefooter h5
+{
+    padding-top: 2rem;
+    font-size: x-large;
+}
+.info 
+{
+    margin-top: 2rem;
+    color: black;
+}
 
 /* Team Page */
 .row
@@ -339,10 +377,6 @@ h3
     text-align: center;
     
 }
-hr
-{
-    margin-top: 5rem;
-}
 
 .YearTwentyOne
 {
@@ -355,18 +389,6 @@ hr
     border-radius: 15rem;
     width: 150px;
     height: 150px;
-}
-
-.YearTwentyOne .sansegallery img
-{
-    width: 565px;
-    height: 318.5px;
-}
-
-.YearTwentyOne .sansegallery iframe
-{
-    width: 565px;
-    height: 318.5px;
 }
 
 .YearTwentyTwo
@@ -387,12 +409,6 @@ hr
     border-radius: 2rem;
     width: 20px;
     height: 20px;
-}
-
-.YearTwentyTwo .dualgallery img
-{
-    width: 282.5px;
-    height: 159.25px;
 }
 
 /*Play Our Games */
