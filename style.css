@@ -103,6 +103,14 @@ body
     font-weight: bold;
 }
 
+.items
+{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 20% 20% 20% 20%;
+    text-align: center;
+}
+
 h2
 {
     margin-top: 5rem;
@@ -145,19 +153,14 @@ h4
 
 .Mpesa
 {
-    display: inline-flex;
-    flex-wrap: wrap;
-    gap: 2rem;
     margin-left: 45%;
-    margin-top: 0.8rem;
+    margin-top: 0.1rem;
     margin-bottom: 2rem;
 }
 
 .PayPal
 {
-    flex-wrap: wrap;
-    gap: 2rem;
-    margin-left: 46%;
+    margin-left: 35%;
     margin-top: 1.5rem;
 }
 
@@ -214,6 +217,7 @@ h4
 
 .profile
 {
+    text-align: center;
     margin-top: 25px;
     color: white;
 }
