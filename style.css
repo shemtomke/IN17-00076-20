@@ -118,13 +118,22 @@ h3
     margin-left: 35%;
 }
 
-.donate
+.Mpesa
 {
     display: inline-flex;
     flex-wrap: wrap;
-    gap: 5rem;
-    margin-left: 40%;
-    margin-top: 3rem;
+    gap: 2rem;
+    margin-left: 45%;
+    margin-top: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+.PayPal
+{
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-left: 46%;
+    margin-top: 1.5rem;
 }
 
 
