@@ -80,11 +80,6 @@ body
     text-align: center;
 }
 
-.ourgames
-{
-    text-align: center;
-}
-
 .gameicon
 {
     text-align: center;
@@ -145,27 +140,16 @@ h4
     margin-top: 2rem;
 }
 
-.Mpesa
-{
-    margin-left: 45%;
-    margin-top: 0.1rem;
-    margin-bottom: 2rem;
-}
-
-.PayPal
-{
-    margin-left: 35%;
-    margin-top: 1.5rem;
-}
-
 .homefooter
 {
     background-color: white; 
     height: 18rem; 
+    width: auto;
     color: black;
     text-align: center;
     font-weight: bold;
 }
+
 .homefooter h5
 {
     padding-top: 2rem;
@@ -178,6 +162,7 @@ h4
 }
 
 /* Team Page */
+
 .row
 {
     display: inline-flex;
