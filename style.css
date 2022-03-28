@@ -75,9 +75,6 @@ body
 }
 .Mission
 {
-    display: inline-flex;
-    flex-wrap: wrap;
-    gap: 15rem;
     margin-top: 5rem; 
     color: white; 
     text-align: center;
