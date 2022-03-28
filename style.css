@@ -7,10 +7,7 @@
         margin: 0.2rem;
         padding-left: 1rem;
     }
-    body 
-    {
-        text-align: center;
-    }
+
     .homefooter
     {
         width: auto;
@@ -18,7 +15,6 @@
 
     .usoLogo
     {
-        align-content: center;
         text-align: center;
     }
 }
