@@ -85,15 +85,12 @@ body
 
 .ourgames
 {
-    display: inline-flex;
-    flex-wrap: wrap;
-    gap: 21rem;
-    margin-top: 5rem;
+    text-align: center;
 }
 
-.ourgames .ourgames2
+.gameicon
 {
-    margin-left: 10rem;
+    text-align: center;
 }
 
 .Tools p
@@ -107,7 +104,7 @@ body
 {
     display: grid;
     justify-content: center;
-    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-columns: 15% 15% 15% 15%;
     text-align: center;
 }
 
