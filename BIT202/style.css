@@ -13,7 +13,7 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) 
 {
-
+    
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -264,25 +264,9 @@ h4
     gap: 0px;
 }
 
-.socialmediaTeam01 ul
+.socialmediaTeam ul
 {
-    text-align: center;
-    display: inline-flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding-bottom: 1rem;
-}
-.socialmediaTeam02 ul
-{
-    text-align: center;
-    display: inline-flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding-bottom: 1rem;
-}
-.socialmediaTeam03 ul
-{
-    text-align: center;
+    justify-content: center;
     display: inline-flex;
     flex-wrap: wrap;
     gap: 20px;
