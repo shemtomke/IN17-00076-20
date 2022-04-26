@@ -19,7 +19,7 @@
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) 
 {
-
+    
 }
 
 @media screen and (max-width: 770px)
@@ -27,6 +27,10 @@
     #navbar
     {
         display: block;
+    }
+    .usoLogo
+    {
+        width: fit-content;
     }
 }
 
