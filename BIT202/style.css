@@ -27,20 +27,19 @@
     #navbar
     {
     padding-top: 2rem;
-    background-color: black;
-    text-align: center;
     display: block;
     }
 
     #menu-bar li
     {
-    display: inline-flex;
+    display: block;
     margin: 0.8rem;
     padding-left: 1.5rem;
     color: white;
     font-size: larger;
+    justify-content: right;
     }
-    
+
     .usoLogo
     {
         width: fit-content;
