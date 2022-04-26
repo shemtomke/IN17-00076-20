@@ -1,46 +1,7 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) 
 {  
-    #navbar
-    {
-    padding-top: 2rem;
-    display: block;
-    }
-
-    #menu-bar li
-    {
-    display: block;
-    margin: 0.8rem;
-    padding-left: 1.5rem;
-    color: white;
-    font-size: larger;
-    justify-content: right;
-    }
-
-    .usoLogo
-    {
-        width: fit-content;
-    }
-
-    .join h2
-{
-    text-align: center;
-    font-weight: bold;
-    letter-spacing: 1px;
-    color: white;
-    padding-bottom: 10px;
-}
-
-.join h2::after
-{
-    content: '';
-    background: red;
-    display: block;
-    height: 3px;
-    width: 300px;
-    margin: 10px auto;
-}
-
+    
 }
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
@@ -63,46 +24,6 @@
 
 @media screen and (max-width: 770px)
 {
-    #navbar
-    {
-    padding-top: 2rem;
-    display: block;
-    }
-
-    #menu-bar li
-    {
-    display: block;
-    margin: 0.8rem;
-    padding-left: 1.5rem;
-    color: white;
-    font-size: larger;
-    justify-content: right;
-    }
-
-    .usoLogo
-    {
-        width: fit-content;
-    }
-
-    .join h2
-{
-    text-align: center;
-    font-weight: bold;
-    letter-spacing: 1px;
-    color: white;
-    padding-bottom: 10px;
-}
-
-.join h2::after
-{
-    content: '';
-    background: red;
-    display: block;
-    height: 3px;
-    width: 300px;
-    margin: 10px auto;
-}
-
 
 }
 
